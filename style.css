@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 body{
     color: white ;
     background: #4EC7A9;
+    font-family: 'Nunito', sans-serif;
 } 
 main{
     color: black;
-
+    text-align: center;
     background: white ;
+    border-radius: 20px;
+}
+button
+{
+    background:  #4EC7A9;
+    border-radius: 50px;
+    border-color: #4EC7A9;
+    color: white; 
+
+}
+h4.indonesia{
+    color: gray;
 }
 img{
     border-radius: 70px;
+}
+li{
+    list-style: none;
 }
