@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 body{
     color: white ;
-    background: #4EC7A9;
+    background: linear-gradient(to right, rgba(140,220,146,1) 0%, rgba(117,211,154,1) 36%, rgba(78,199,169,1) 71%, rgba(78,199,169,1) 100%);
     font-family: 'Nunito', sans-serif;
 } 
 main{
@@ -12,11 +12,14 @@ main{
 }
 button
 {
-    background:  #4EC7A9;
+    background: linear-gradient(to right, rgba(140,220,146,1) 0%, rgba(117,211,154,1) 36%, rgba(78,199,169,1) 71%, rgba(78,199,169,1) 100%);
     border-radius: 50px;
     border-color: #4EC7A9;
     color: white; 
 
+}
+div{
+    display: inline-block;
 }
 h4.indonesia{
     color: gray;
@@ -24,6 +27,15 @@ h4.indonesia{
 img{
     border-radius: 70px;
 }
-li{
+li#uno{
     list-style: none;
+    display: inline-block;
+}
+li#dos{
+    list-style: none;
+    
+}
+aside#experience{
+    background: white;
+    color: black;
 }
